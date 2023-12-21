@@ -15,6 +15,7 @@
 }
 
 header ul{
+    margin: 5rem 2rem;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
@@ -28,7 +29,7 @@ header ul li{
 
 header ul a{
     text-decoration: none;
-    color: black;
+    color: #FCFAFA;
     background-color: #2B9EB3;
     padding: 1rem;
     border: 1px solid none;
@@ -41,4 +42,37 @@ header ul a:hover{
     background-color: white;
     border: 1px solid #2B9EB3;
     color: #2B9EB3;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+main article{
+    width: 70%;
+    padding: 2rem;
+    border-radius: 2rem;
+    text-align: center;
+    color: #FCFAFA;
+    background-color: #FF9925;
+}
+
+main article ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+main article li{
+    list-style: none;
+}
+
+footer{
+   background-color: #2B9EB3;
+   color: #FCFAFA;
+   padding: 2rem;
+   margin-top: 2rem;
 }
