@@ -1,4 +1,44 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=DM+Sans:opsz,wght@9..40,500&family=Inter&family=Poppins:wght@500&family=Quicksand:wght@400;500;700&family=Roboto&display=swap');
+
+
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+    font-family: 'roboto';
+}
+
+.welcome{
+    margin: 2rem;
+    text-align: center;
+}
+
+header ul{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+}
+
+header ul li{
+    list-style: none;
+}
+
+header ul a{
+    text-decoration: none;
+    color: black;
+    background-color: #2B9EB3;
+    padding: 1rem;
+    border: 1px solid none;
+    border-radius: 2rem;
+    transition: 0.3s;
+   
+}
+
+header ul a:hover{
+    background-color: white;
+    border: 1px solid #2B9EB3;
+    color: #2B9EB3;
 }
