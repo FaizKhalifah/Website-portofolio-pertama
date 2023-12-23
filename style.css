@@ -76,3 +76,34 @@ footer{
    padding: 2rem;
    margin-top: 2rem;
 }
+
+@media only screen and (max-width: 720px){
+
+    nav{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+    }
+    nav ul{
+        width: 100%;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav li{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    nav ul a{
+        width: 70%;
+    }
+
+   
+}
